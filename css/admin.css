@@ -1,0 +1,32 @@
+.yce h1:first-child {margin-bottom:30px;}
+
+	fieldset {
+	padding: 30px 30px 40px 30px;
+    border: 1px solid #CCC;
+	margin: 0 0 60px 0;
+    }
+	legend {
+    font-size: 1.4rem;
+    padding: 0 10px;
+		margin-bottom: .5rem;
+    max-width: 100%;
+}
+.yce div.right {
+	width: 30%;
+    float: left;
+}
+.yce div.left {
+    width: 60%;
+    float: left;
+    margin-right: 30px;
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 736px) 
+and (orientation : portrait) {
+	.yce div.right, .yce div.left {
+		float:none;
+		margin:0;
+		width:100%;
+	}
+}
